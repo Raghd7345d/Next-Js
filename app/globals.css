@@ -30,4 +30,17 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .highlight {
+    background-color: #ffeb3b;
+  }
+}
+
+.border-overlay {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border: 2px dashed #c82100; /* Match the border color */
+  content: '';
 }
